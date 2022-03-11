@@ -79,6 +79,8 @@ text = msg.as_string()
 s.sendmail(from_addr, to_address, text)
 
 print("sent succesfully")
+# terminating the session
+s.quit()
 ## Now let's make something fun after our code have been executed nicely
 ## putting pyautogui inside a loop so it will
 ## showing the user an error message
@@ -96,6 +98,5 @@ for i in range(7):
                         but the presentation and examples do not reflect our current design guidance.''')
 
 
-# terminating the session
-s.quit()
+
        
