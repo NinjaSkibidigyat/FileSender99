@@ -1,7 +1,7 @@
 # Python script that will send all the jpg files 
 # to your Email account
 ## FOR EDUCATIONAL PURPOSE ONLY
-                    ##Author = PersistentGuy  
+                    ##Author = Sohaib 
 # libraries to be imported
 import smtplib
 from email.mime.multipart import MIMEMultipart
